@@ -16,6 +16,7 @@ public class LoginManager : MonoBehaviour
     public bool LoginCheck;
     public GameObject FailJoin;
     public GameObject SucJoin;
+    public GameObject FailLogin;
     public GameObject JoinB;
     public GameObject LoginB;
 
@@ -77,6 +78,20 @@ public class LoginManager : MonoBehaviour
             {
                 Debug.Log("로그인 실패");
                 LoginCheck = false;
+                if(SucJoin.activeSelf)
+                {
+                    SucJoin.SetActive(false);
+                    FailLogin.SetActive(true);
+                }
+                else if(FailJoin.activeSelf)
+                {
+                    FailJoin.SetActive(false);
+                    FailLogin.SetActive(true);
+                }
+                else
+                {
+                    FailLogin.SetActive(true);
+                }
                 Debug.Log(LoginCheck);
 
             }
