@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "144688572618",
+    "firebase_url": "https://mudang2-b1fbe-default-rtdb.firebaseio.com",
+    "project_id": "mudang2-b1fbe",
+    "storage_bucket": "mudang2-b1fbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144688572618:android:b9015d04f06c83f7962c33",
+        "android_client_info": {
+          "package_name": "com.mudang2.appname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144688572618-tur88kvaaq2e6uqnlk3muq6csvcj025g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMcugu0s13e7MjPqVRzEzIJnn1rzq18EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144688572618-tur88kvaaq2e6uqnlk3muq6csvcj025g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144688572618-bh34jjbd8gtfgqj8277c6lopchrme2or.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mudang2.appname"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
