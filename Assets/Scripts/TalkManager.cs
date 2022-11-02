@@ -43,7 +43,7 @@ public class TalkManager : MonoBehaviour
 
         talkData.Add(11 + 1500, new string[]
         {
-            "비전타워에 도착했습니다! 다음에 또 봐요~"
+            "비전타워에 도착했습니다!", "비전타워는 지하4층 지상7층 규모에 건물입니다.", "건물 안에는 많은 교양 강의실과 컨벤션센터, 학생서비스센터, 학생복지처, 장애학생지원센터, 창업지원단이 있습니다!", "다음에 또 봐요~"
         });
 
         talkData.Add(20 + 2000, new string[]
@@ -52,7 +52,7 @@ public class TalkManager : MonoBehaviour
         });
         talkData.Add(21 + 3500, new string[]
         {
-            "가천관 도착했습니다! 다음에 또 이용해주세요~"
+            "가천관 도착했습니다!", "가천관은 지하2층 지상 12층 규모의 건물입니다.", "건물 안에는 총장실, 이사장실과 대학본부가 위치해 있으며, 보건진료소와 복지 매장이 운영되고 있습니다!", "다음에 또 이용해주세요~"
         });
 
         talkData.Add(30 + 3000, new string[]
@@ -61,7 +61,7 @@ public class TalkManager : MonoBehaviour
         });
         talkData.Add(31 + 4500, new string[]
         {
-            "글로벌센터 도착했습니다~ 안녕히 가세요~"
+            "글로벌센터 도착했습니다~", "글로벌센터는 7층 규모의 건물입니다.", "글로벌센터에서는 영어 교양 강의를 들을 수 있고, 입학처, 국제어학원 또 외국인 학생들을 위한 한국어 교육센터를 운영하고있습니다!", "안녕히 가세요~"
         });
 
         talkData.Add(40 + 4000, new string[]
@@ -70,7 +70,7 @@ public class TalkManager : MonoBehaviour
         });
         talkData.Add(41 + 5500, new string[]
         {
-            "중앙도서관 도착했습니다ㅎㅎ 좋은 하루 되세요!"
+            "중앙도서관 도착했습니다ㅎㅎ", "중앙 도서관에서는 도서관과 열람실을 이용하실수 있습니다! 시험기간에 공부하기 정말 좋아요!", "그럼 열심히 공부 하세요!"
         });
 
         talkData.Add(50 + 5000, new string[]
@@ -79,7 +79,7 @@ public class TalkManager : MonoBehaviour
        });
         talkData.Add(51 + 6500, new string[]
         {
-            "한의대학 도착했습니다! 다음에 또 봐요!"
+            "한의대학 도착했습니다!", "다음에 또 봐요!"
         });
 
         talkData.Add(60 + 6000, new string[]
@@ -93,7 +93,7 @@ public class TalkManager : MonoBehaviour
 
         talkData.Add(70 + 7000, new string[]
        {
-            "안녕하세요! ", "글로벌센터로 가주세요~", "네, 알겠습니다~~"
+            "글로벌센터 도착했습니다~", "글로벌센터는 7층 규모의 건물입니다.", "글로벌센터에서는 영어 교양 강의를 들을 수 있고, 입학처, 국제어학원 또 외국인 학생들을 위한 한국어 교육센터를 운영하고있습니다!", "안녕히 가세요~"
        });
         talkData.Add(71 + 4500, new string[]
         {
@@ -106,7 +106,7 @@ public class TalkManager : MonoBehaviour
        });
         talkData.Add(81 + 3500, new string[]
         {
-            "가천관 도착했습니다!"
+            "가천관 도착했습니다!", "가천관은 지하2층 지상 12층 규모의 건물입니다.", "건물 안에는 총장실, 이사장실과 대학본부가 위치해 있으며, 보건진료소와 복지 매장이 운영되고 있습니다!", "다음에 또 이용해주세요~"
         });
 
         talkData.Add(90 + 9000, new string[]
@@ -115,7 +115,7 @@ public class TalkManager : MonoBehaviour
 });
         talkData.Add(91 + 1500, new string[]
         {
-            "비전타워 도착했습니다~"
+            "비전타워에 도착했습니다!", "비전타워는 지하4층 지상7층 규모에 건물입니다.", "건물 안에는 많은 교양 강의실과 컨벤션센터, 학생서비스센터, 학생복지처, 장애학생지원센터, 창업지원단이 있습니다!", "다음에 또 봐요~"
         });
     }
 
